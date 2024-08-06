@@ -1,0 +1,85 @@
+/* Common Styles */
+.upload-section {
+    margin: 20px;
+  }
+  
+  .weather-data {
+    margin: 20px;
+  }
+  
+  .table-view table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-view th, .table-view td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table-view th {
+    background-color: #f4f4f4;
+  }
+  
+  .card-container, .list-view, .grid-view, .detailed-view {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card, .list-item, .grid-item, .detailed-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .card-container {
+    flex-direction: column;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    width: 200px;
+  }
+  
+  .list-view {
+    flex-direction: column;
+  }
+  
+  .list-item {
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+  
+  .grid-view {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .grid-item {
+    background-color: #e9e9e9;
+    width: calc(33.333% - 20px);
+  }
+  
+  .detailed-view {
+    flex-direction: column;
+  }
+  
+  .detailed-item {
+    background-color: #ffffff;
+    width: 100%;
+  }
+  
+  .layout-buttons {
+    margin-top: 20px;
+  }
+  
+  .layout-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+  }
+  
+  .location-data {
+    margin: 20px;
+  }
+  

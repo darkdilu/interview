@@ -1,0 +1,34 @@
+<app-navbar></app-navbar>
+
+
+<div class="admin-container">
+  <!-- Country Form -->
+  <form (ngSubmit)="addCountry()">
+    <label for="country">Country:</label>
+    <input id="country" [(ngModel)]="countryName" name="countryName" required />
+    <button type="submit">Add Country</button>
+  </form>
+
+  <!-- State Form -->
+  <form (ngSubmit)="addState()">
+    <label for="state">State:</label>
+    <input id="state" [(ngModel)]="stateName" name="stateName" required />
+    <button type="submit">Add State</button>
+  </form>
+
+  <!-- District Form -->
+  <form (ngSubmit)="addDistrict()">
+    <label for="district">District:</label>
+    <input id="district" [(ngModel)]="districtName" name="districtName" required />
+    <button type="submit">Add District</button>
+  </form>
+
+  <!-- City Form -->
+  <form (ngSubmit)="addCity()">
+    <label for="city">City:</label>
+    <input id="city" [(ngModel)]="cityName" name="cityName" required />
+    <button type="submit">Add City</button>
+  </form>
+</div>
+
+<app-footer></app-footer>
